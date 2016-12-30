@@ -1,0 +1,4 @@
+C:\Users\zallen\Documents\Visual Studio 2013\Projects\TicketTracker\TicketTracker.Data\bin\Release\TicketTracker.Data.dll
+C:\Users\zallen\Documents\Visual Studio 2013\Projects\TicketTracker\TicketTracker.Data\bin\Release\TicketTracker.Data.pdb
+C:\Users\zallen\Documents\Visual Studio 2013\Projects\TicketTracker\TicketTracker.Data\obj\Release\TicketTracker.Data.dll
+C:\Users\zallen\Documents\Visual Studio 2013\Projects\TicketTracker\TicketTracker.Data\obj\Release\TicketTracker.Data.pdb
