@@ -1,2 +1,9 @@
 *.config
 Properties/
+*.suo
+*.user
+_ReSharper.*
+bin/
+obj/
+packages
+App_Data/
