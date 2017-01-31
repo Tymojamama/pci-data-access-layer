@@ -1,5 +1,6 @@
 *.config
 Properties/
+Settings.cs
 *.suo
 *.user
 _ReSharper.*
