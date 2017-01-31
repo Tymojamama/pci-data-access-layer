@@ -109,7 +109,7 @@ namespace PensionConsultants.Data.Utilities
         private string GenerateSelectCommand()
         {
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.Append("SELECT * FROM <tablename> WHERE <primarykey> = @PrimaryKey");
+            stringBuilder.Append("SELECT * FROM [<tablename>] WHERE [<primarykey>] = @PrimaryKey");
             stringBuilder.Replace("<tablename>", this.TableName);
             stringBuilder.Replace("<primarykey>", this.PrimaryKeyName);
 
@@ -119,7 +119,7 @@ namespace PensionConsultants.Data.Utilities
         private string GenerateInsertCommand()
         {
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.Append("INSERT INTO <tablename> (<columns>) VALUES (<values>)");
+            stringBuilder.Append("INSERT INTO [<tablename>] (<columns>) VALUES (<values>)");
             stringBuilder.Replace("<tablename>", this.TableName);
             stringBuilder.Replace("<columns>", GenerateInsertColumns());
             stringBuilder.Replace("<values>", GenerateInsertValues());
@@ -130,7 +130,7 @@ namespace PensionConsultants.Data.Utilities
         private string GenerateUpdateCommand()
         {
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.Append("UPDATE <tablename> SET <columns> WHERE <primarykey> = @PrimaryKey");
+            stringBuilder.Append("UPDATE [<tablename>] SET <columns> WHERE [<primarykey>] = @PrimaryKey");
             stringBuilder.Replace("<tablename>", this.TableName);
             stringBuilder.Replace("<primarykey>", this.PrimaryKeyName);
             stringBuilder.Replace("<columns>", GenerateUpdateColumns());
@@ -191,7 +191,7 @@ namespace PensionConsultants.Data.Utilities
         private string GenerateDeleteCommand()
         {
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.Append("DELETE FROM <tablename> WHERE <primarykey> = @PrimaryKey");
+            stringBuilder.Append("DELETE FROM [<tablename>] WHERE [<primarykey>] = @PrimaryKey");
             stringBuilder.Replace("<tablename>", this.TableName);
             stringBuilder.Replace("<primarykey>", this.PrimaryKeyName);
 
