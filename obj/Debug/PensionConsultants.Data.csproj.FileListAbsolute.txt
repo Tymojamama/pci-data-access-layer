@@ -8,3 +8,6 @@ C:\Users\zallen\Documents\Visual Studio 2013\Projects\PensionConsultants.Data\ob
 \\PC03\Common Ground\IT\Libraries\PensionConsultants.Data.pdb
 C:\Users\zallen\Documents\Visual Studio 2013\Projects\PensionConsultants.Data\obj\Debug\PensionConsultants.Data.csprojResolveAssemblyReference.cache
 \\PC03\Common Ground\IT\Libraries\PensionConsultants.Data.dll.config
+C:\Users\zallen\Documents\GitHub\pci-data-access-layer\obj\Debug\PensionConsultants.Data.csprojResolveAssemblyReference.cache
+C:\Users\zallen\Documents\GitHub\pci-data-access-layer\obj\Debug\PensionConsultants.Data.dll
+C:\Users\zallen\Documents\GitHub\pci-data-access-layer\obj\Debug\PensionConsultants.Data.pdb

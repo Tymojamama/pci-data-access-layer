@@ -22,6 +22,7 @@ namespace PensionConsultants.Data.Access
             PCIDB_PlanPerformance,
             PCIDB_RfpTool,
             PCIDB_AskAway,
+            PCIDB_VendorServicesProgram,
             PCIDB_Pension_Consultants_MSCRM
         }
 
@@ -69,6 +70,9 @@ namespace PensionConsultants.Data.Access
                 case Connections.PCIDB_AskAway:
                     ConnectionString = "Data Source=PCI-DB;Initial Catalog=AskAway;Integrated Security=True";
                     break;
+                case Connections.PCIDB_VendorServicesProgram:
+                    ConnectionString = "Data Source=PCI-DB;Initial Catalog=VendorServicesProgram;Integrated Security=True";
+                    break;
                 case Connections.PCIDB_Pension_Consultants_MSCRM:
                     ConnectionString = "Data Source=PCI-DB;Initial Catalog=Pension_Consultants_MSCRM;Integrated Security=True";
                     break;
@@ -105,6 +109,9 @@ namespace PensionConsultants.Data.Access
                             break;
                         case Connections.PCIDB_AskAway:
                             ConnectionString = GetConnectionString("PCIDB_AskAway");
+                            break;
+                        case Connections.PCIDB_VendorServicesProgram:
+                            ConnectionString = GetConnectionString("PCIDB_VendorServicesProgram");
                             break;
                         case Connections.PCIDB_Pension_Consultants_MSCRM:
                             throw new NotImplementedException();
